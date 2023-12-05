@@ -1,0 +1,70 @@
+body
+{
+    text-align: justify;
+    background-color:#333;
+}
+
+.container
+{
+    background-color:#FDFEFE;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding:20px;
+    border-radius: 30px;
+
+}
+
+.nav
+{
+    border-bottom: 2px solid #17202A;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    gap: 34px;
+}
+
+.nav-link
+{
+    color: #17202A;
+    font-size: larger;
+}
+
+h1, h2
+{
+    text-align: center;
+    color:#333;
+}
+
+footer
+{
+    font-size: 11px;
+    text-align: center;
+    border-top: 2px solid #17202A;
+    padding-top: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap-reverse; /* Reverse the order for smaller screens */
+}
+
+.content-box-item {
+    flex: 1;
+    padding: 20px; /* Add padding for spacing */
+}
+
+.content-box-item.text {
+    order: 1; /* Order text to be on the left */
+}
+
+.content-box-item.img-box {
+    order: 2; /* Order image to be on the right */
+    text-align: right; /* Align the image to the right within its container */
+}
+
+.content-box-item img {
+    max-width: 100%; /* Ensure the image is responsive */
+    border-radius: 21px;
+}
+
