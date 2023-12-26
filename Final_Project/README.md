@@ -1,8 +1,5 @@
 # Real-Time Face and Eye Recognition with OpenCV
 
-## Video:
-https://youtu.be/5fQvFX7OwFs
-
 ## Introduction
 
 In this project, we embark on a detailed exploration of real-time face and eye recognition using OpenCV, a widely-adopted computer vision library. Face and eye recognition technologies have evolved into integral components across various fields, ranging from bolstering security systems to facilitating innovative human-computer interaction experiences.
